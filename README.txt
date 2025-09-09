@@ -1,14 +1,14 @@
 --<Lunch signer>--
 
 creator: Patrik Husar
-newest pacro version: 1.0
+newest pacro version: 1.2
 newest windows version pacro tested on: |windows 10|
 necessary packages/extensions: -
 
 to run pacro:
 1. unzip pacro.7z folder
 2. get ready your edupage lunch signing menu
-3. run pacro-1.1.exe file
+3. run pacro.exe file
 
 troubleshooting:
  - put edupage on your main monitor
