@@ -8,15 +8,19 @@ def getpath(relativePath):
         base_path = os.path.dirname(sys.executable)
     else:
         base_path = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(base_path, relativePath)
+    path = os.path.join(base_path, relativePath)
+    if not os.path.exists(path):
+        print(f"ERROR: File '{path}' does not exist!")
+        sys.exit(1)
+    return path
 signLunchImage = getpath("pictures/sign.png")
 nextWeekImage = getpath("pictures/nextWeek.png")
 def click(obrazok, confidence):
-    try:
-        pyautogui.click(pyautogui.locateCenterOnScreen(obrazok, confidence=confidence))
+    pozicia = pyautogui.locateCenterOnScreen(obrazok, confidence=confidence)
+    if pozicia:
+        pyautogui.click(pozicia)
         return True
-    except Exception as e:
-        return False
+    return False
 while True:
     if click(signLunchImage, 0.7):
         print("signed lunch")
