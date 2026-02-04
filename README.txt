@@ -24,4 +24,4 @@ tested versions:
 |windows 10|
 
 
-thanks to everyone for using my program :-)
+thanks for using my program :-)
