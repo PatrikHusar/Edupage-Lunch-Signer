@@ -23,6 +23,5 @@ email: patrik.husar.sk@gmail.com
 tested versions:
 |windows 10|
 
-other windows versions may not work with current pacro version
 
 thanks to everyone for using my program :-)
