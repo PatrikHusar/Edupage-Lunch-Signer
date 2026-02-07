@@ -21,7 +21,8 @@ contact:
 email: patrik.husar.sk@gmail.com
 
 tested versions:
-|windows 10|
+| windows 10 pro | windows 11 pro |
 
 
 thanks for using my program :-)
+
