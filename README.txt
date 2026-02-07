@@ -2,7 +2,6 @@
 
 creator: Patrik Husar
 newest pacro version: 1.2
-newest windows version pacro tested on: |windows 10|
 necessary packages/extensions: -
 
 to run pacro:
@@ -25,4 +24,5 @@ tested versions:
 
 
 thanks for using my program :-)
+
 
