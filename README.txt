@@ -1,5 +1,11 @@
 --<Lunch signer>--
 
+What is it:
+It's an autoclicker which can find buttons in the edupage lunch signing screen and click them, it can also skip to the other week if current one is already signed
+
+How to change picture of button which it clicks:
+This autoclicker works by scanning the screen and finding pictures which are identical with saved ones. So just screenshot the button, go to pictures and replace the picture with the new picture. But keep the name of the picture same, because it won't work then. 
+
 creator: Patrik Husar
 newest pacro version: 1.2
 necessary packages/extensions: -
@@ -24,5 +30,6 @@ tested versions:
 
 
 thanks for using my program :-)
+
 
 
